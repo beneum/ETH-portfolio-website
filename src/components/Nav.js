@@ -8,7 +8,12 @@ export default function Nav({ mainSkillsRef, introRef, projectsRef}) {
     <>
       <div className={`${styles.nav}`} ref={navHeight}> 
       {/* navHeight: 'nav 높이' 참조값  */}
-        <div onClick={()=>{window.location.replace("/")}} className={`${styles.portfolio}`}>ETH's Portfolio</div>
+        <div onClick={() => { 
+                window.scroll({
+                  top: introRef.current.offsetTop - navHeight.current.clientHeight,
+                  behavior: 'smooth',
+                });
+              }} className={`${styles.portfolio}`}>ETH's Portfolio</div>
         <div>
           <ul className={`${styles.nav_menu}`}>
             <li

@@ -14,8 +14,8 @@ const Projects = forwardRef((props,ref)=>{
         start: "2023.09.1",
         end: "2023.09.25",
         tech: ["HTML5 ", "CSS3 ", "React ", "Firebase ", "TailwindCSS"],
-        demo: "https://realestate-project-omega.vercel.app/",
-        source: "https://github.com/beneum/realestate-project-final",
+        demo: "https://real-estate-project-cegi9mt6w-beneum.vercel.app/",
+        source: "https://github.com/beneum/Real-Estate-Project",
         blog: "https://blog.naver.com/beneum11",
         
     },
@@ -27,8 +27,8 @@ const Projects = forwardRef((props,ref)=>{
         start: "2023.08.04",
         end: "2023.08.25",
         tech: ["HTML5 ", "CSS3 ", "React ", "UseReducer ", "Context API"],
-        demo: "https://furniture-mall-project.vercel.app/",
-        source: "https://github.com/beneum/Furniture-Mall-Project",
+        demo: "https://furniture-store-nu.vercel.app/",
+        source: "https://github.com/beneum/furniture-store",
         blog: "https://blog.naver.com/beneum11"
     },
 
