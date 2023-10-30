@@ -22,15 +22,23 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    margin: 0;
     gap: 3em;
-    padding: 10px;
     list-style: none;
     
   }
 
   .nav_menu li{
     cursor: pointer;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    font-size: 900;
   }
+
+  .nav_menu li:hover{
+    border-bottom: 3px solid rgb(8, 158, 209);
+  }
+
 
   .portfolio{
     font-family: 'Noto Sans KR', sans-serif;

@@ -5,7 +5,7 @@ import styles from './mainskills.module.css'
 const MainSkills = forwardRef((props, ref) =>{
 return (
 <div>
-    <h2 className={`${styles.MainSkills}`} ref={ref}>Main Skills</h2>
+    <h2 className={`${styles.MainSkills}`} ref={ref}>Main Skills</h2>    
     <div className={`${styles.main_skills_img}`}>
         <img src={`${process.env.PUBLIC_URL}`+`/htmlcssjs2.png`} alt="" />
         <img src={`${process.env.PUBLIC_URL}`+`/react3.png`} alt="" />

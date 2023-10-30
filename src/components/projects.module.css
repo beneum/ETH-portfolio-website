@@ -1,6 +1,4 @@
-
-  
-  
+ 
   .projects{
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
@@ -9,25 +7,36 @@
     
   }
   .projects h2{
+    width: 200px;
+    margin: 0 auto;
     text-align: center;
     font-size: 40px;
+    color: rgb(8, 158, 209);
+    border-bottom: 2px solid lightgray;
   }
 
-  .about_project{
-    
+
+
+  .about_project{    
     padding-left: 0;
     font-size: 17px;
     font-weight: bold;
-    margin-top: 10px;
-    
+    margin-top: 10px;    
   }
+
+  .about_project p{
+    font-size: 100;
+    color: rgb(8, 158, 209);
+  }
+
+
 
   .about_project > div{
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: baseline;
     justify-content: center;
-    width: 370px;
+    width: 400px;
   }
 
 
@@ -36,6 +45,8 @@
     font-size: 16px;
     font-weight: normal;
     margin: 10px;
+    color: darkslategray;
+    
   }
 
   .intro_detail{
@@ -74,13 +85,18 @@
     width: 100%;
     box-sizing: border-box;
   }
+  
+  .icon{
+
+    width: 78px;
+  }
 
   .project_title{
     margin: 0;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight: 900;
     text-align: center;
-    
+    color: rgb(8, 158, 209);
   }
 
   .projects_container{
@@ -99,9 +115,10 @@
   }
 
   .proj_detail{
-    font-size: 16px;
+    font-size: 17px;
     color: darkslategray;
     width: 100%;
+    line-height: 25px;
   }
   
  

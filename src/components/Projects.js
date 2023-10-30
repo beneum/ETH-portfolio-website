@@ -22,7 +22,7 @@ const Projects = forwardRef((props,ref)=>{
     {
         title: "가구 쇼핑몰 웹사이트",
         image: "Furniture-Mall.png",
-        detail: "가격, 브랜드, 색상 등에 따라 필터링 기능을 적용한 가구쇼핑몰 웹사이트입니다.",
+        detail: "카테고리, 브랜드, 무료배송 등에 따라 필터링 기능을 실행시키고 가격순, 이름순에 따라 정렬 기능을 적용한 가구쇼핑몰 웹사이트입니다.",
         function: "로그인, 회원가입, 매물 올리기, 카카오맵 API",
         start: "2023.08.04",
         end: "2023.08.25",
