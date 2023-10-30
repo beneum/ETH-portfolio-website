@@ -24,15 +24,7 @@ function App() {
       ></Nav>
       <Intro ref={introRef}></Intro>
       <Projects ref={projectsRef}></Projects>    
-      {/* <FirstPage></FirstPage> */}
-      {/* <hr />  */}
-      
-      {/* <About></About>       */}
-      {/* <hr />  */}
       <MainSkills ref={mainSkillsRef}></MainSkills>
-      {/* <hr />  */}
-      
-      {/* <hr />    */}
       <Footer></Footer>
     </>    
   );
